@@ -18,4 +18,4 @@ Mempersiapkan tools yang akan digunakan
 ### 3. Instalasi Python
 * Install python dari [https://www.python.org/downloads/](https://www.python.org/downloads/)
 * Buka Command Prompt dan ketik py --version untuk melakukan pengecekan versi python yang sekaligus menandakan python telah terinstal
-* ![Verifikasi Python](assets/pythonCheck.png)
+  ![Verifikasi Python](assets/pythonCheck.png)
