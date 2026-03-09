@@ -22,7 +22,7 @@ Menangkap dan menganalisa paket data dengan menggunakan wireshark.
 
 ### 3. Analisis Paket yang Telah Dicapture
 1. **Tampilan Awal:** Wireshark akan menampilkan seluruh informasi yang telah dicapture.
-   ![Unfiltered Result](assets/unfilteredResult.png)
+   ![Unfiltered Result](assets/unfilteredSearch.png)
 3. **Filter dengan keyword "http":** Dengan memfilter, informasi seperti pesan HTTP GET yang dikirim ke server web dapat ditemukan dan dibaca dengan mudah untuk dianalisa.
    Dengan wireshark, informasi seperti detail protokol dapat dilihat.
    ![Filtered Result](assets/result.png)
