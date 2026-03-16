@@ -1,7 +1,9 @@
 # Laporan Praktikum Jaringan Komputer | Modul 3
 
 **Nama:** Farrellino Ulung Satya Amando
+
 **NIM:** 103072400005
+
 **Kelas:** IF-04-01    
 ---
 
