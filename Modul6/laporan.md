@@ -23,7 +23,7 @@ Langkah-langkahnya adalah:
   2. Lakukan ekspansi pada header Transmission Control Protocol.
   3. Amati field *Sequence Number*, *Flags*, dan besaran *Payload*.
 
-> *![HTTP POST Segment](assets/5.png)*
+> *![HTTP POST Segment](assets/3.png)*
 
 **Analisis:**
 Pengiriman data file dimulai melalui instruksi HTTP POST. Frame pengiriman awal ini tercatat memiliki *sequence number* 1 dengan membawa *payload* sebesar 626 bytes, yang utamanya memuat informasi header HTTP. Paket ini menggunakan flag PSH (*Push*) yang menginstruksikan agar layer transpor penerima segera meneruskan data ke layer aplikasi tanpa menunggu *buffer* penuh, bersamaan dengan flag ACK yang mengonfirmasi penerimaan transmisi sebelumnya.
@@ -34,7 +34,7 @@ Langkah-langkahnya adalah:
   2. Lacak waktu pengiriman segmen dan bandingkan dengan waktu kedatangan paket ACK balasan yang bersesuaian.
   3. Amati nilai kestabilan RTT.
 
-> *![Analisis RTT dan ACK](assets/3.png)*
+> *![Analisis RTT dan ACK](assets/5.png)*
 
 **Analisis:**
 Pengamatan pada 6 segmen pertama menunjukkan bahwa nilai Round Trip Time (SampleRTT) sangat stabil di kisaran angka 276 ms. Nilai perkiraan waktu putar balik (*EstimatedRTT*) dihitung secara dinamis menggunakan pemulusan eksponensial dengan formulasi matematis:
